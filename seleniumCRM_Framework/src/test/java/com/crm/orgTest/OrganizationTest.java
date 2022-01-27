@@ -17,5 +17,9 @@ public class OrganizationTest {
 	public void modifyOrgTest() {
 		System.out.println("execute modifyOrgTest");
 	}
+	@Test(groups = "regressionTest")
+	public void modifyOrgizationTest() {
+		System.out.println("execute modify Organization Test");
+	}
 
 }
